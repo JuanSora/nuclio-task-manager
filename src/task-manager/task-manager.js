@@ -3,7 +3,7 @@ import {React, useState } from 'react'
 
 function TaskManager() {
     const[title, setTitle]= useState('');
-    const [tasks, setTasks]=useState(['Do dishes', 'Buy Milk']);
+    const [tasks, setTasks]=useState([]);
 
 
 
